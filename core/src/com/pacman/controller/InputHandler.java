@@ -1,0 +1,83 @@
+package com.pacman.controller;
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input;
+
+public class InputHandler {
+
+    public static char keyToString() {
+        if (Gdx.input.isKeyJustPressed(Input.Keys.A))
+            return 'a';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.B))
+            return 'b';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.C))
+            return 'c';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.D))
+            return 'd';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.E))
+            return 'e';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.F))
+            return 'f';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.G))
+            return 'g';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.H))
+            return 'h';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.I))
+            return 'i';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.J))
+            return 'j';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.K))
+            return 'k';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.L))
+            return 'l';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.M))
+            return 'm';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.N))
+            return 'n';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.O))
+            return 'o';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.P))
+            return 'p';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.Q))
+            return 'q';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.R))
+            return 'r';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.S))
+            return 's';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.T))
+            return 't';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.U))
+            return 'u';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.V))
+            return 'v';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.W))
+            return 'w';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.X))
+            return 'x';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.Y))
+            return 'y';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.Z))
+            return 'z';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.NUM_0))
+            return '0';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.NUM_1))
+            return '1';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.NUM_2))
+            return '2';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.NUM_3))
+            return '3';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.NUM_4))
+            return '4';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.NUM_5))
+            return '5';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.NUM_6))
+            return '6';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.NUM_7))
+            return '7';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.NUM_8))
+            return '8';
+        if (Gdx.input.isKeyJustPressed(Input.Keys.NUM_9))
+            return '9';
+        return '_';
+    }
+}
